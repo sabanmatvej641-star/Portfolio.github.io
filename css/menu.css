@@ -1,0 +1,41 @@
+.menu {
+  height: 100vh;
+  width: 340px;
+  background-color: #ffa501;
+  position: fixed;
+  left: -340px;
+  transition: all 0.5s;
+}
+.menu_active {
+  left: 0px;
+  transition: all 1s;
+}
+.menu_btn_close {
+  background-color: #ffa501;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 280px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.menu_bnt_stick1 {
+  background-color: black;
+  height: 5px;
+  width: 120%;
+  transform: rotateZ(45deg);
+  position: relative;
+  top: 19px;
+  border-radius: 25px;
+}
+
+.menu_bnt_stick2 {
+  background-color: black;
+  height: 5px;
+  width: 120%;
+  transform: rotateZ(135deg);
+  top: 14px;
+  position: relative;
+  border-radius: 25px;
+}
