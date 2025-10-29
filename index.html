@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/about_me.css" />
     <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/animate.css" />
   </head>
   <body>
     <div class="menu">
@@ -41,7 +42,7 @@
           <div class="about_me_circle"></div>
           <div class="about_me_me">Про меня</div>
 
-          <div class="about_me_name">Меня зовут Матвей</div>
+          <div class="about_me_name wow shake">Меня зовут Матвей</div>
           <div class="about_me_stick"></div>
           <div class="about_me_info">
             Мне 31 год. Программированием увлекаюсь уже более 5 лет. Начинал с
@@ -52,7 +53,7 @@
             WEB-приложений.
           </div>
           <div class="about_me_work">
-            <div class="about_me_box">
+            <div class="about_me_box wow shake">
               <div class="about_me_icon"></div>
               <div class="about_me_ground">
                 <div class="about_me_arduino">Arduino</div>
@@ -74,6 +75,10 @@
     </section>
 
     <section class="my_skills"></section>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
