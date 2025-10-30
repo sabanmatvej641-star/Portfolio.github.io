@@ -78,7 +78,16 @@
   justify-content: space-between;
 }
 
-.about_me_box {
+.about_me_boxArduino {
+  width: 45%;
+  height: 185px;
+  background-color: antiquewhite;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_me_boxWeb {
   width: 45%;
   height: 185px;
   background-color: antiquewhite;
@@ -94,7 +103,21 @@
   height: 40px;
 }
 
+.about_me_icon2 {
+  background-color: #ffa501;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
 .about_me_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.about_me_text2 {
   font-family: "Poppins", sans-serif;
   font-size: 12px;
   font-size: 12px;
@@ -109,7 +132,21 @@
   flex-direction: column;
 }
 
+.about_me_ground2 {
+  width: 80%;
+  height: 180px;
+
+  display: flex;
+  flex-direction: column;
+}
+
 .about_me_arduino {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.about_me_web {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: bold;
