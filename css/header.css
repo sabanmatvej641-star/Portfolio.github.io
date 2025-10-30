@@ -1,5 +1,5 @@
 header {
-  background-color: white;
+  background-color: #5097c7;
   width: 100vw;
   height: 100vh;
   padding-left: 400px;
@@ -47,7 +47,7 @@ header {
 .hamburger {
   width: 45px;
   height: 35px;
-  background-color: white;
+  background-color: #5097c7;
   position: absolute;
   top: 20px;
   right: 25px;

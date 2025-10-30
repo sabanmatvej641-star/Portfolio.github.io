@@ -97,10 +97,8 @@
 .about_me_text {
   font-family: "Poppins", sans-serif;
   font-size: 12px;
-  margin-top: 6px;
   font-size: 12px;
   line-height: 18px;
-  margin-top: -20px;
 }
 
 .about_me_ground {
@@ -109,7 +107,6 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .about_me_arduino {
