@@ -24,73 +24,35 @@
   list-style-type: none;
   padding-left: 35px;
 }
-/* .menu_list_circle_befor {
-  content: "";
-  position: absolute;
-  left: -35px;
-  top: 9px;
+.menu_list_circle {
   width: 15px;
   height: 15px;
   border-radius: 100%;
-  border: 1px solid #000;
-} */
-
-.menu_list_about_me {
-  color: white;
-  font-size: 24px;
-  font-family: "Poppins", sans-serif;
-  line-height: 36px;
-  margin-bottom: 15px;
-  font-weight: bold;
-}
-.menu_list_my_experience {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  position: relative;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  margin-bottom: 15px;
-}
-.menu_list_my_skills {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  position: relative;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  margin-bottom: 15px;
+  border: 1px solid black;
+  margin-right: 15px;
+  margin-bottom: 1px;
 }
 
-.menu_list_my_work {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  position: relative;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  margin-bottom: 15px;
+.menu_list_wrapper {
+  display: flex;
+  width: 100%;
+  background-color: #ffa501;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 20px;
 }
 
-.menu_list_price_list {
+.menu_list_interface {
   color: white;
-  font-family: "Poppins", sans-serif;
-  position: relative;
-  font-weight: bold;
   font-size: 24px;
-  line-height: 36px;
-  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 
-.menu_list_my_contact {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  position: relative;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  margin-bottom: 15px;
+.menu_list_interface:hover {
+  border-bottom: 2px solid white;
 }
+
 .menu_btn_close {
   background-color: #ffa501;
   height: 40px;
