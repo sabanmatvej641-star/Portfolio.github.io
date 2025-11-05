@@ -49,8 +49,13 @@
   font-weight: bold;
 }
 
-.menu_list_interface:hover {
-  border-bottom: 2px solid white;
+.menu_list_interface > a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu_list_interface > a:hover {
+  text-decoration: underline;
 }
 
 .menu_btn_close {

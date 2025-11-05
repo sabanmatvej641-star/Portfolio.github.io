@@ -113,14 +113,7 @@
 .about_me_text {
   font-family: "Poppins", sans-serif;
   font-size: 12px;
-  font-size: 12px;
-  line-height: 18px;
-}
 
-.about_me_text2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 12px;
-  font-size: 12px;
   line-height: 18px;
 }
 
@@ -132,24 +125,18 @@
   flex-direction: column;
 }
 
-.about_me_ground2 {
-  width: 80%;
-  height: 180px;
-
-  display: flex;
-  flex-direction: column;
-}
-
 .about_me_arduino {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .about_me_web {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .about_me_info {
