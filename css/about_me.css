@@ -47,7 +47,7 @@
 .about_me_main_img {
   width: 35%;
   height: 700px;
-  background-image: url(/img/car.jpg);
+  background-image: url(../img/car.jpg);
   background-position-x: -50px;
   background-size: 120%;
   background-repeat: no-repeat;
@@ -112,9 +112,9 @@
 
 .about_me_text {
   font-family: "Poppins", sans-serif;
-  font-size: 12px;
+  font-size: 13px;
 
-  line-height: 18px;
+  line-height: 19px;
 }
 
 .about_me_ground {
