@@ -40,4 +40,15 @@
   .menu {
     width: 240px;
   }
+
+  .menu_btn_close {
+    left: 180px;
+  }
+
+  .menu_list_interface {
+    font-size: 18px;
+  }
+  .menu_block {
+    padding-left: 10px;
+  }
 }
