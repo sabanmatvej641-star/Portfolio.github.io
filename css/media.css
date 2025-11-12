@@ -1,0 +1,43 @@
+@media (max-width: 1200px) {
+  header {
+    padding-left: 300px;
+  }
+}
+@media (max-width: 992px) {
+  .name {
+    width: 400px;
+  }
+
+  header {
+    padding-left: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding-left: 150px;
+  }
+
+  .my_name {
+    font-size: 16px;
+  }
+
+  .my_job {
+    font-size: 38px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    padding-left: 50px;
+  }
+
+  .name {
+    width: 250px;
+  }
+
+  .menu {
+    width: 240px;
+  }
+}

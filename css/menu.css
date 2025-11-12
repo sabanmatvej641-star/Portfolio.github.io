@@ -12,7 +12,7 @@
 }
 
 .menu_block {
-  width: 340px;
+  width: 100%;
   background-color: #ffa501;
   height: 100vh;
   cursor: pointer;
