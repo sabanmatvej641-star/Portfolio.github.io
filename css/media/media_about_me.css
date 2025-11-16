@@ -1,10 +1,107 @@
 @media (max-width: 1200px) {
 }
 @media (max-width: 992px) {
+  .about_me_info {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .about_me_web {
+    font-size: 12px;
+  }
+
+  .about_me_arduino {
+    font-size: 12px;
+  }
+  .about_me_text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .text {
+    font-size: 30px;
+  }
+  .about_me_icon {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 @media (max-width: 768px) {
+  .text {
+    font-size: 23px;
+  }
+
+  .about_me_info {
+    font-size: 11px;
+    line-height: 19px;
+  }
+
+  .about_me_me {
+    font-size: 14px;
+  }
+
+  .about_me_text {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .about_me_icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .about_me_web {
+    font-size: 10px;
+  }
+
+  .about_me_arduino {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 576px) {
+  .about_me_info {
+    font-size: 9px;
+  }
+
+  .text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+  .about_me_text {
+    font-size: 9px;
+    line-height: 13px;
+  }
+
+  .about_me_icon {
+    width: 10px;
+    height: 10px;
+  }
+  .about_me_circle {
+    height: 25px;
+    width: 25px;
+  }
+
+  .about_me_stick {
+    height: 3px;
+    width: 50px;
+  }
+
+  .about_me_name {
+    margin-top: -45px;
+  }
+
+  .about_me_web {
+    font-size: 9px;
+  }
+
+  .about_me_me {
+    font-size: 13px;
+    line-height: 22px;
+    padding-left: 12px;
+    margin-top: -60px;
+  }
 }
