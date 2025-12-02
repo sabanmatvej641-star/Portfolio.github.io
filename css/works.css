@@ -1,0 +1,40 @@
+.my_works {
+  width: 100%;
+  height: 1100px;
+  background-color: white;
+}
+
+.my_works_curcle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffa501;
+  margin: 0 auto;
+}
+.my_works_head_text {
+  position: relative;
+  left: 581px;
+  top: -32px;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.my_works_title_text {
+  text-align: center;
+  margin-top: -20px;
+  font-weight: bold;
+  line-height: 60px;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+}
+
+.my_tools_stick {
+  height: 4px;
+  width: 60px;
+  background-color: #ffa501;
+  margin: 15px auto 0 auto;
+  margin-bottom: 60px;
+}
