@@ -38,3 +38,47 @@
   margin: 15px auto 0 auto;
   margin-bottom: 60px;
 }
+
+.my_works_links {
+  width: 100%;
+
+  background-color: white;
+  display: grid;
+  grid-template: repeat(2, 280px) / repeat(4, 280px);
+
+  gap: 5px;
+  justify-content: center;
+}
+
+.my_works_links_item {
+  background-color: brown;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.my_works_links_item:hover {
+  transform: scale(1.1);
+  filter: grayscale(80%);
+}
+
+.long {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.long2 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.my_works_links_text {
+  position: relative;
+  top: 500px;
+
+  transform: translateX(29%);
+  color: #ffa501;
+  font-size: 28px;
+  line-height: 38px;
+}
