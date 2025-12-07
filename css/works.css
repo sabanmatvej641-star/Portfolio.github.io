@@ -76,6 +76,18 @@
 .my_works_links_text {
   position: relative;
   top: 500px;
+  font-family: "Poppins", sans-serif;
+
+  transform: translateX(29%);
+  color: #ffa501;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.my_works_links_text2 {
+  position: relative;
+  top: 220px;
+  font-family: "Poppins", sans-serif;
 
   transform: translateX(29%);
   color: #ffa501;
