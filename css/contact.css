@@ -13,9 +13,14 @@
   justify-content: space-between;
 }
 
+.my_contact_photo {
+  background-color: black;
+}
+
 .my_contact_description {
   width: 594px;
   height: 585px;
+  background-color: white;
 }
 
 .my_contact_curcle {
@@ -65,10 +70,77 @@
   display: flex;
   gap: 20px;
   align-items: center;
+  z-index: 150;
 }
 
 .my_contact_social img {
   width: 30px;
   height: 30px;
   object-fit: contain;
+}
+.my_contact_form {
+  background-color: white;
+  height: 56%;
+  width: 100%;
+}
+.my_contact_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.my_contact_input_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my_contact_input {
+  position: relative;
+}
+.my_contact_input input {
+  width: 280px;
+  height: 40px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.my_contact_input label {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  left: 10px;
+  font-size: 12px;
+  bottom: 33px;
+  background-color: white;
+  padding: 0px 5px 0px 5px;
+}
+
+.my_contact_textarea {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  position: relative;
+}
+
+.my_contact_textarea textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.my_contact_textarea label {
+  position: absolute;
+  left: 10px;
+  bottom: 196px;
+  background-color: white;
+  padding: 0px 5px 0px 5px;
+}
+
+.my_contact_btn {
+  width: 40%;
+  height: 40px;
+  border: none;
+  background-color: #ffa501;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
 }
