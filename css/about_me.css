@@ -41,11 +41,10 @@
 }
 
 .about_me_main_img {
-  width: 35%;
+  width: 45%;
   height: 700px;
-  background-image: url(../img/car.jpg);
-  background-position-x: -50px;
-  background-size: 120%;
+  background-image: url(../img/me\ 2.jpg);
+  background-size: 90%;
   background-repeat: no-repeat;
 }
 

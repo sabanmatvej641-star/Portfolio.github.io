@@ -14,7 +14,10 @@
 }
 
 .my_contact_photo {
-  background-color: black;
+  background-image: url(../img/me\ 3\ .jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-x: 50px;
 }
 
 .my_contact_description {
