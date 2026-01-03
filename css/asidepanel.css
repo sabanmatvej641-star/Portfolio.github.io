@@ -1,0 +1,43 @@
+.asidepanel {
+  position: fixed;
+  top: 200px;
+  left: 50px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidepanel_stick {
+  width: 2px;
+  height: 70px;
+  background-color: #000;
+  margin-bottom: 10px;
+}
+
+.sidepanel_text {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.asidepanel:hover .sidepanel_text {
+  opacity: 1;
+}
+
+.sidepanel_link img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  display: block;
+}
+
+.sidepanel_link {
+  margin: 5px 0;
+}
