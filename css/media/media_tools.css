@@ -1,0 +1,95 @@
+@media (max-width: 1600px) {
+  .container {
+    width: 1150px;
+  }
+
+  .my_tools_curcle {
+    width: 30px;
+    height: 30px;
+  }
+  .my_tools_head_text {
+    line-height: 20px;
+    font-size: 14px;
+    top: -27px;
+    left: 550px;
+  }
+
+  .my_tools_title {
+    font-size: 30px;
+    margin-bottom: -20px;
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+  .asidepanel {
+    display: none;
+  }
+
+  .my_tools_head_text {
+    line-height: 20px;
+    font-size: 14px;
+    top: -27px;
+    left: 475px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 770px;
+  }
+
+  .my_tools_head_text {
+    left: 358px;
+  }
+  .my_tools_block_item {
+    width: 200px;
+    height: 200px;
+  }
+
+  .my_tools_block_description {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .my_tools_block_text {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .my_tools_head_text {
+    line-height: 18px;
+    font-size: 15px;
+    top: -25px;
+    left: 356px;
+  }
+
+  .my_tools_curcle {
+    width: 25px;
+    height: 25px;
+  }
+
+  .my_tools_title {
+    font-size: 25px;
+  }
+
+  .my_tools_block_item {
+    width: 250px;
+    height: 250px;
+  }
+
+  .my_tools_block {
+    width: 100%;
+    height: 250px;
+
+    margin-top: 10px;
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+}

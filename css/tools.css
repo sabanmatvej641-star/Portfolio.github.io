@@ -26,6 +26,10 @@
 .my_tools_title {
   text-align: center;
   margin-top: -20px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 60px;
+  font-family: "Poppins", sans-serif;
 }
 
 .my_tools_stick {
